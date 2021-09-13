@@ -1,1 +1,158 @@
 
+body {
+    background-color: white ;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+/* HEADER
+---------------
+--------------- */
+
+header {
+    background-color: black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/* Bloc 1 header */
+.blocH1 {
+    background-color: cornflowerblue;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Columna 1 Header 1 */
+.columna1H1 {
+    background-color: darkred;
+    margin: 20px;
+
+}
+
+.columna2H1 {
+    background-color: darkred;
+    margin: 20px;
+    
+}
+
+.columna3H1{
+    background-color: darkred;
+    margin: 20px;
+
+}
+
+
+.blocH2 {
+    background-color: darkgoldenrod;
+    margin: 20px;
+
+}
+
+.columna1H2 {
+    background-color: yellow;
+    margin: 20px;
+}
+
+
+/* MAIN 
+----------------
+---------------- */
+
+
+main {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.blocM1 {
+    background-color: blue;
+    margin: 20px;
+    display: flex
+    
+
+}
+
+.columna1M1 {
+    background-color: cornflowerblue;
+    margin: 20px;
+
+}
+
+.columna2M1 {
+    background-color: cornflowerblue;
+    margin: 20px;
+
+}
+
+.columna3M1 {
+    background-color: cornflowerblue;
+    margin: 20px;
+
+}
+
+.columna4M1 {
+    background-color: cornflowerblue;
+    margin: 20px;
+
+}
+
+.columna5M1 {
+    background-color: deepskyblue;
+    margin: 20px;
+}
+
+
+
+.blocM2 {
+    background-color: red;
+    margin: 20px;
+
+
+}
+
+.columna1M2 {
+    background-color: goldenrod;
+    margin: 20px;
+
+}
+
+.columna2M2 {
+    background-color: goldenrod;
+    margin: 20px;
+
+}
+
+
+
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.columnaF {
+    background-color: goldenrod;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
