@@ -1,231 +1,148 @@
 
 body {
-    background-color: white ;
-    margin: 0 auto;
+    background-color: pink ;
     max-width: 1200px;
-}
-
-
-/* HEADER
----------------
---------------- */
-
-header {
-    background-color: black;
-    margin: 20px 25px 20px 25px;
-    height: 200px;
+    max-height: 506px;
+    margin: 0 auto;
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     
-}
-
-/* MAIN 
-----------------
----------------- */
-
-
-main {
-    background-color:black;
     
-    margin: 20px 25px 20px 25px;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    
 
 }
 
-/* FOOTER
-----------------
----------------- */
 
-footer {
+/* HEADER */
+
+.capçalera {
     background-color: black;
-    margin: 20px 25px 20px 25px;
-    display: flex;
-    justify-content: center;
+    
+    flex-basis: 100px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    
+    
+ 
+    
+}
+
+/* MAIN */
+
+.principal {
+    background-color: black;
+    flex-basis: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
     
 
 }
+
+/* FOOTER */
+
+.peu {
+    background-color: black;
+    flex-basis: 100px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
 
 
 
 /* BLOC 1 */
-.bloc-1 {
-    background-color: #2d4059;
-    margin: 10px 20px 10px 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-/* BLOC 2 */
-.bloc-2 {
-    background-color: #f07b3f;
-    margin: 10px 20px 10px 20px;
-
-}
-
-/* BLOC 3 */
-.bloc-3 {
-    background-color: #4e4e6a;
-    height: 150px;
-    margin: 20px;
-    flex-grow: 1;
-    
-
-    display: flex;
-    flex-basis: 400px;
-    
-
-
-}
-
-
-/* BLOC 4 */
-.bloc-4 {
-    background-color:#f73f52;
-    height: 150px;
-    margin: 20px;
-    flex-grow: 1;
-    
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-
-
-}
-
-
-
-
-
-
-
 
 
 /* Box 1 */
-.box-1 {
-    background-color: #ea5455;
-    
-    margin: 20px 20px 20px 20px;
-    height: 40px;
-    flex-grow: 1;
 
-}
 
 /* Box 2 */
-.box-2 {
-    background-color: #ea5455;
-    
-    margin: 20px 20px 20px 20px;
-    height: 40px;
-    flex-grow: 3;
-    
-}
+
 
 /* Box 3 */
-.box-3{
-    background-color: #ea5455;
-    
-    margin: 20px 20px 20px 20px;
-    height: 40px;
-    flex-grow: 1;
-
-}
 
 
 
+/* -----BLOC----- 2 */
 
 
 /* Box 4 */
-.box-4 {
-    background-color: #fed460;
-    margin: 20px 20px 20px 20px;
-    height: 40px;
-    
-}
 
 
 
 
 
-
-/*---------------
----------------
- Box 5 */
-.box-5 {
-    background-color: #1f6cb0;
-    
-    margin: 20px;
-    width: 75px;
-    
-
-}
-
-/* Box 6 */
-.box-6 {
-    background-color: #1f6cb0;
-    
-    margin: 20px;
-    width: 75px;
-
-}
-
-/* Box 7 */
-.box-7 {
-    background-color: #1f6cb0;
-    
-    margin: 20px;
-    width: 75px;
-
-}
-
-/* Box 8 */
-.box-8 {
-    background-color: #1f6cb0;
-    
-    margin: 20px;
-    width: 75px;
-
-}
-
-/* Box 9 */
-.box-9 {
-    background-color: #70a3c4;
-    
-    margin: 20px;
-    align-self: flex-end;
-}
-
-
+/*---- BLOC ---- 4 */
 
 
 /* Box 10 */
-.box-10 {
-    background-color: white;
-    border: 2px solid black;
-    margin: 5px;
 
-}
 
 /* Box 11 */
-.box-11 {
-    background-color: white;
-    border: 2px solid black;
-    margin: 5px;
 
-}
+
+
+
+
+
+/* BLOC 3 */
+
+
+
+
+/* Box 5 */
+
+
+/* Box 6 */
+
+
+/* Box 7 */
+
+
+/* Box 8 */
+
+
+/* Box 9 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 /* Box 12 */
-.box-12 {
-    background-color: white;
-    border: 2px solid black;
-    margin: 20px;
-}
+
+
 
 
 
