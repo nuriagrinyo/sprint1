@@ -9,7 +9,6 @@ body {
 
 
 /* HEADER */
-
 .capçalera {
     background-color: black;
     flex-basis: 175px;
@@ -181,9 +180,10 @@ body {
 }
 
 
+
 /* MEDIA QUERY PER A TAULETES */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   
     .capçalera {
         margin: 50px 50px 10px 50px;
@@ -200,11 +200,13 @@ body {
     /* BLOC 3 */
     .bloc-3 {
         background-color: #4e4e6a;
-        flex-basis: 200px;
+        flex-basis: 140px;
         margin: 20px 20px 10px 20px;
+        display:flex;
+        align-content: center;
         display: grid;
-        grid-template-columns: [first] 30px [line2] auto [line3] 30px [line4] auto [line5] 30px ;
-        grid-template-rows: [row1] 30px [row2] 30px [row3] 30px [row4] 30px [row5] 30px [row6] 30px [row7] 30px;
+        grid-template-columns: [first] 20px [line2] auto [line3] 20px [line4] auto [line5] 20px ;
+        grid-template-rows: [row1] 20px [row2] 20px [row3] 20px [row4] 20px [row5] 20px [row6] 20px [row7] 20px;
     }
     
     /* BLOC 4 */
@@ -227,6 +229,156 @@ body {
 
 
   
+/* MEDIA QUERY PER A MÒBILS */
+
+  @media (max-width: 480px) {
+
+
+    .capçalera {
+        background-color: black;
+        flex-basis: 175px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* BLOC 1 */
+    .bloc-1 {
+        background-color: #2d4059;
+        flex-basis: 20px;
+        flex-grow: 1;
+        margin: 20px 20px 10px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Box 1 */
+    .box-1 {
+        background-color: #ea5455;
+        flex-basis: 20px;
+        flex-grow: 1;
+        margin: 20px 20px 10px 20px;
+    }
+    
+    /* Box 2 */
+    .box-2 {
+        background-color: #ea5455;
+        flex-basis: 20px;
+        flex-grow: 1;
+        margin: 10px 20px 10px 20px;
+    }
+    
+    /* Box 3 */
+    .box-3 {
+        background-color: #ea5455;
+        flex-basis: 20px;
+        flex-grow: 1;
+        margin: 10px 20px 20px 20px;
+    }
     
 
-  
+    /* BLOC 2 */
+.bloc-2 {
+    background-color: #f07b3f;
+    flex-basis: 60px;
+    flex-grow: 1;
+    margin: 10px 20px 20px 20px;
+    display: flex;
+}
+
+/* Box 4 */
+.box-4 {
+    background-color: #fed460;
+    flex-basis: 20px;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+
+/* MAIN */
+.principal {
+    background-color: #fee228;
+    flex-basis: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* BLOC 3 */
+.bloc-3 {
+    background-color: #4e4e6a;
+    flex-basis: 220px;
+    flex-grow: 2;
+    margin: 20px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;  
+}
+
+/* Box 5 */
+.box-5 {
+    background-color: #62959c;
+    flex-basis: 20px;
+    margin: 20px 20px 10px 20px;
+}
+
+/* Box 6 */
+.box-6 {
+    background-color: #62959c;
+    flex-basis: 20px;
+    margin: 10px 20px 10px 20px;
+}
+
+/* Box 7 */
+.box-7 {
+    background-color: #62959c;
+    flex-basis: 20px;
+    margin: 10px 20px 10px 20px; 
+}
+
+/* Box 8 */
+.box-8 {
+    background-color: #62959c;
+    flex-basis: 20px;
+    margin: 10px 20px 10px 20px;
+}
+
+/* Box 9 */
+.box-9 {
+    background-color: #a3ddcb;
+    flex-basis: 20px;
+    margin: 10px 20px 20px 20px;
+}
+
+/* BLOC 4 */
+.bloc-4 {
+    background-color: #fd7b54;
+    flex-basis: 20px;
+    flex-grow: 1;
+    margin: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Box 10 */
+.box-10 {
+    background-color: #fdb36b;
+    flex-basis: 20px;
+    margin: 20px 20px 5px 20px;
+
+}
+
+/* Box 11 */
+.box-11 {
+    background-color: #fdb36b;
+    flex-basis: 20px;
+    margin: 5px 20px 20px 20px;
+}
+
+.box-12 {
+    background-color: #fdc764;
+}
+    
+
+} /*final media mobils*/
