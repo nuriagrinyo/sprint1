@@ -180,3 +180,53 @@ body {
     margin: 20px 20px 20px 20px;
 }
 
+
+/* MEDIA QUERY PER A TAULETES */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .capçalera {
+        margin: 50px 50px 10px 50px;
+    }
+
+    .principal {
+        background-color: #feff03;
+        flex-basis: 300px ;
+        margin: 10px 50px 10px 50px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    /* BLOC 3 */
+    .bloc-3 {
+        background-color: #4e4e6a;
+        flex-basis: 200px;
+        margin: 20px 20px 10px 20px;
+        display: grid;
+        grid-template-columns: [first] 30px [line2] auto [line3] 30px [line4] auto [line5] 30px ;
+        grid-template-rows: [row1] 30px [row2] 30px [row3] 30px [row4] 30px [row5] 30px [row6] 30px [row7] 30px;
+    }
+    
+    /* BLOC 4 */
+    .bloc-4 {
+        background-color: #f73f52;
+        flex-basis: 20px;
+        flex-grow: 1;
+        margin: 10px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .peu {
+        margin: 30px;
+        margin: 10px 50px 20px 50px;
+    }
+    
+    
+  } /*final media query tauleta*/
+
+
+  
+    
+
+  
